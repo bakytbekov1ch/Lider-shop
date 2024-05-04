@@ -1,0 +1,161 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.home__icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 55px;
+}
+
+.home__btn-btn {
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.home__icon2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.home__icon2 input {
+  width: 120px;
+  height: 35px;
+}
+
+.home__icon2 button {
+  width: 45px;
+  height: 40px;
+  background: green;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.home__content {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.home__api {
+  width: 280px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.home__api img {
+  width: 100%;
+}
+/* ............... */
+
+.newpage {
+  background: url("https://www.cnet.com/a/img/resize/1a36ffb8e49867e95d17f02f02941d3331aa38d8/hub/2023/09/18/16cdf1fe-0814-47f4-8c89-0c935084f39c/iphone15-pro-81.jpg?auto=webp&fit=crop&height=675&width=1200")
+    no-repeat center/cover;
+  padding: 50px;
+  margin: 20px 0;
+}
+
+.newpage__content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.new__block {
+  width: 500px;
+  border-radius: 8px;
+  padding: 10px;
+  background: rgb(241, 241, 241, 0.3);
+}
+
+.new__img-logo {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.new__logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.new__block2 {
+  width: 480px;
+  border-radius: 8px;
+  padding: 0 20px;
+  background: rgb(241, 241, 241, 0.3);
+}
+
+.new__sikitka {
+  text-decoration: line-through;
+}
+/* .......... */
+
+.category__content {
+  margin: 50px 0;
+}
+
+.category__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.category__inputs input {
+  width: 350px;
+  height: 40px;
+  font-size: 25px;
+}
+
+.category__buttton {
+  width: 120px;
+  height: 40px;
+  background: green;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.category__buttton:hover {
+  width: 80px;
+  height: 30px;
+  background: red;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  transform: rotate(0.5);
+  transition: all 2s;
+}
+
+.categiry__btn-btn{
+  width: 358px;
+  height: 47px;
+  font-size: 20px;
+}
+/* ........ */
+
+.loit__content{
+  margin: 30px 0;
+}
+
+.loit__block{
+  width: 300px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+.loit__img{
+  width: 100%;
+}

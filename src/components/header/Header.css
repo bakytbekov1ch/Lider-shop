@@ -1,0 +1,114 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url("https://cdn.mgig.fr/2020/10/mg-2f970417-ba70-41c0-b3d8-w1200h674-sc.jpg")
+    no-repeat center/cover;
+  height: 100vh;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  margin: 0 30px;
+  background: rgb(140, 140, 140, 0.5);
+  padding: 0 30px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.header_logo {
+  width: 80px;
+  height: 50px;
+  background: brown;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 50px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.header__block3 h2 {
+  color: #fff;
+  font-weight: 800;
+}
+
+.header__nav-link {
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.header__btn {
+  background: none;
+  font-size: 35px;
+  color: #fff;
+  border: none;
+  background: none;
+  text-decoration: underline;
+}
+
+.header__block3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__block3-btn {
+  width: 50px;
+  height: 50px;
+  background: rgb(94, 0, 0);
+  color: #fff;
+  font-size: 35px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__logo-logo {
+  width: 290px;
+  height: 290px;
+  color: #fff;
+  font-size: 15pc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background: rgb(94, 0, 0, 0.2);
+  margin: 10% 0 0 10%;
+}
+
+.header__boc h1{
+  font-size: 11pc;
+  color: #fff;
+  font-weight: 800;
+  margin-top: 13%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header__boc{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
